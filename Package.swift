@@ -14,7 +14,7 @@ let package = Package(
         .target(
             name: "Logentries",
             path: "lelib",
-            exclude: ["lelib-Prefix.pch"]
+            exclude: ["lelib-Prefix.pch"],
             publicHeadersPath: "./"
         )
     ]
